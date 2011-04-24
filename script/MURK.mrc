@@ -22,7 +22,7 @@ alias murk.version {
 }
 
 alias murk.build {
-  var %murk.build 1.0.9
+  var %murk.build 1.0.91
   if ($isid) { return %murk.build }
   elseif ($window(@MURK)) { echo -tg @MURK %murk.build }
 }
